@@ -5,6 +5,15 @@
   font-family: "Arial", sans-serif;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("https://www.transparenttextures.com/patterns/noise.png");
+  opacity: 0.03;
+  pointer-events: none;
+}
+
 body {
   background: linear-gradient(
     120deg,
