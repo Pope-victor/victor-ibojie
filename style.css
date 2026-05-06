@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #111827;
+  position: sticky;
+  top: 0;
+}
+
+nav h1 {
+  color: #38bdf8;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero p {
+  margin: 10px 0;
+  color: #cbd5e1;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+}
+
+/* Cards */
+.card {
+  background: #1e293b;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 12px;
+  animation: slideUp 1s ease-in-out;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.box {
+  background: #0f172a;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  background: #38bdf8;
+  color: black;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111827;
+  margin-top: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes slideUp {
+  from {transform: translateY(40px); opacity: 0;}
+  to {transform: translateY(0); opacity: 1;}
+}
+/* CTA Section */
+.cta {
+  text-align: center;
+  padding: 40px;
+  background: #38bdf8;
+  color: black;
+  margin: 20px;
+  border-radius: 12px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.cta .btn {
+  background: black;
+  color: white;
+  margin-top: 10px;
+}
+
+.cta .btn:hover {
+  background: white;
+  color: black;
+}
+
+/* Smooth hover for links */
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
