@@ -1,110 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VICTOR IBOJIE | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Victor Ibojie | Database Administrator</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- Navbar -->
-  <nav>
-    <h1>VICTOR IBOJIE</h1>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#pitch">Pitch</a></li>
-      <li><a href="#extras">More</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <div class="logo">Victor Ibojie</div>
 
-  <!-- Hero -->
-  <header class="hero">
-    <h2>Hello, I'm VICTOR IBOJIE</h2>
-    <p>Database Administrator | Aspiring Data Engineer & Data Analyst</p>
-    <a href="#contact" class="btn">Contact Me</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- About -->
-  <section id="about" class="card">
-    <h2>About Me</h2>
-    <p>
-      I am a Database Administrator currently learning Data Engineering and Data Analytics.
-      I enjoy working with data and turning it into useful insights.
-    </p>
-  </section>
+  <section class="hero">
+    <div class="hero-content">
 
-  <!-- Work -->
-  <section id="work" class="card">
-    <h2>Portfolio / Work</h2>
-    <div class="grid">
-      <div class="box">Database Management (DBA)</div>
-      <div class="box">SQL Projects</div>
-      <div class="box">Data Cleaning</div>
-      <div class="box">Learning Data Engineering Tools</div>
+      <img src="images/victor.jpg" alt="Victor Ibojie">
+
+      <h1>Victor Ibojie</h1>
+
+      <h3>Database Administrator | Aspiring Data Engineer</h3>
+
+      <p>
+        Computer Engineering graduate with experience in SQL Server administration,
+        database optimization, enterprise support, and cloud technologies.
+        Passionate about solving technical problems and building reliable data systems.
+      </p>
+
+      <a href="Victor_Ibojie_Resume.pdf" class="btn" download>
+        Download Resume
+      </a>
+
+      <a href="https://github.com/YOURUSERNAME" class="btn">
+        GitHub
+      </a>
+
     </div>
   </section>
 
-  <!-- Services -->
-  <section id="services" class="card">
-    <h2>Services / Expertise</h2>
-    <ul>
-      <li>Database management and optimization</li>
-      <li>Data analysis and reporting</li>
-      <li>SQL queries and data cleaning</li>
-      <li>Basic data engineering support</li>
-    </ul>
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-container">
+
+      <div class="card">
+        <h3>Who I Am</h3>
+
+        <p>
+          I am a Database Administrator currently working at LAPO Microfinance Bank.
+          I specialize in SQL Server database management, backups, monitoring,
+          troubleshooting, and performance optimization.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Career Goal</h3>
+
+        <p>
+          My goal is to become a skilled Data Engineer and Senior Database Administrator,
+          helping organizations make better decisions through secure and reliable data systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Passion</h3>
+
+        <p>
+          I enjoy learning new technologies, solving technical problems,
+          and understanding how systems and data work together.
+        </p>
+      </div>
+
+    </div>
   </section>
 
-  <!-- Elevator Pitch -->
-  <section id="pitch" class="card">
-    <h2>Elevator Pitch</h2>
-    <p>
-      I am VICTOR IBOJIE, a Database Administrator and aspiring Data Engineer/Data Analyst.
-      I help manage and organize data and turn it into useful insights. I am looking for
-      opportunities where I can grow and add value.
-    </p>
+  <section id="skills">
+
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="card">
+
+      <div class="skills-list">
+        <span>SQL Server</span>
+        <span>PostgreSQL</span>
+        <span>MongoDB</span>
+        <span>MySQL</span>
+        <span>Oracle Cloud (OCI)</span>
+        <span>Linux</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>GitHub</span>
+        <span>Database Backup</span>
+        <span>Performance Optimization</span>
+        <span>IT Support</span>
+      </div>
+
+    </div>
+
   </section>
 
-  <!-- Extras Section -->
-  <section id="extras" class="card">
-    <h2>More About Me</h2>
+  <section id="projects">
 
-    <h3>Testimonials</h3>
-    <p>"Hardworking and detail-oriented data professional." – Mentor</p>
+    <h2 class="section-title">Projects</h2>
 
-    <h3>Blog / Insights</h3>
-    <p>I enjoy learning and sharing knowledge about data and technology.</p>
+    <div class="projects-container">
 
-    <h3>Social Media</h3>
-    <p>LinkedIn: https://www.linkedin.com/in/victor-ibojie-519066384?utm_source=share_via&utm_content=profile&utm_medium=member_ios</p>
+      <div class="card">
 
-    <h3>Resume</h3>
-    <p><a href="https://docs.google.com/document/d/1sMpBYckqilf_MyJrA9QMFWMMzNRfckd6/edit?usp=sharing&ouid=105782024401110385563&rtpof=true&sd=true">Download My CV</a></p>
+        <h3>SQL Database Management Project</h3>
+
+        <p>
+          Designed and managed a sample employee database using SQL Server.
+          Implemented queries, indexing, backups, and optimization techniques.
+        </p>
+
+        <div class="project-links">
+          <a href="https://github.com/YOURUSERNAME/sql-project">
+            View Project
+          </a>
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <h3>Database Backup & Recovery</h3>
+
+        <p>
+          Created automated backup and recovery procedures
+          to improve disaster recovery readiness and database availability.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3>Performance Optimization</h3>
+
+        <p>
+          Improved query performance using indexing,
+          monitoring, and SQL optimization techniques.
+        </p>
+
+      </div>
+
+    </div>
+
   </section>
 
-  <!-- Call to Action -->
-  <section class="cta">
-    <h2>Let’s Work Together</h2>
-    <p>Contact me for opportunities in Data Engineering or Data Analytics.</p>
-    <a href="#contact" class="btn">Get in Touch</a>
+  <section id="experience">
+
+    <h2 class="section-title">Experience</h2>
+
+    <div class="experience-container">
+
+      <div class="card">
+
+        <h3>Database Administrator</h3>
+
+        <p><strong>LAPO Microfinance Bank</strong></p>
+
+        <p>
+          Managing SQL Server databases,
+          performing backups,
+          monitoring performance,
+          and supporting enterprise systems.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <h3>Enterprise Service Support</h3>
+
+        <p><strong>LAPO Development Centre</strong></p>
+
+        <p>
+          Troubleshooting software, hardware,
+          and network issues while ensuring system uptime.
+        </p>
+
+      </div>
+
+    </div>
+
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="card">
-    <h2>Contact</h2>
-    <p>Email: ibojievictor18@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+  <section id="certifications">
+
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="cert-container">
+
+      <div class="card">
+        <h3>Oracle Cloud Infrastructure 2025 Certified Foundations Associate</h3>
+      </div>
+
+      <div class="card">
+        <h3>Databases for Developers: Foundations</h3>
+      </div>
+
+      <div class="card">
+        <h3>Introduction to MongoDB</h3>
+      </div>
+
+    </div>
+
   </section>
 
-  <!-- Footer -->
+  <section id="contact">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-container">
+
+      <form>
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+
+      <div class="socials">
+
+        <a href="https://github.com/YOURUSERNAME">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://linkedin.com/in/YOURUSERNAME">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:ibojievictor18@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
   <footer>
-    <p>© 2026 Victor Ibojie. All Rights Reserved.</p>
+    <p>© 2026 Victor Ibojie | Database Administrator Portfolio</p>
   </footer>
-  
+
 </body>
 </html>
